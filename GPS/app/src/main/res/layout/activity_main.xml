@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="349dp">
+
+        <TextView
+            android:id="@+id/text_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:text="0.0 / 0.0"
+            android:textAlignment="center"
+            android:textColor="#41E216"
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/btn_start_update"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="60dp"
+            app:srcCompat="@mipmap/play" />
+
+        <ImageButton
+            android:id="@+id/btn_stop_update"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="center"
+            app:srcCompat="@mipmap/stop" />
+
+    </LinearLayout>
+
+    <!--
+    Nama : Catur Maulana
+    NIM  : 5170411053
+    -->
+</androidx.constraintlayout.widget.ConstraintLayout>
